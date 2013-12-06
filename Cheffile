@@ -1,1 +1,6 @@
+#!/user/bin/env ruby
+
 site 'http://community.opscode.com/api/v1'
+
+cookbook 'runit'
+cookbook 'nginx', git: 'git://github.com/opscode-cookbooks/nginx.git'
